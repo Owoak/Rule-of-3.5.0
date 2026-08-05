@@ -8,10 +8,9 @@ int main() {
 	SmartArray <int> arrB(8);
 	arrB[2] = 3;
 	arrB[7] = 8;
-	arrB.print();
-
-	arrB.resize(5);
-	arrB.print();
+	for (auto it = arrB.begin(); it != arrB.end(); ++it) {
+		cout << *it;
+	}
 
 	return 0;
 }
