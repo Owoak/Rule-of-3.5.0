@@ -4,15 +4,13 @@
 using namespace std;
 
 int main() {
-	SmartArray <int> arr(5);
-	arr[2] = 42;
-
-	arr.print();
-
+	//SmartArray <int> arrB(arr);
 	SmartArray <int> arrB(8);
+	arrB[2] = 3;
+	arrB[7] = 8;
 	arrB.print();
-	arrB = arr;
-	arr.print();
+
+	arrB.resize(5);
 	arrB.print();
 
 	return 0;
