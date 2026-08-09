@@ -29,6 +29,20 @@ public:
 		}
 		return *this;
 	}
+	/* MoveConstructor */
+	SmartArray(SmartArray&& other) :size(other.size), newArray(other.newArray) {
+		other.clear();
+	}
+	/* MoveOperator */
+	SmartArray& operator= (SmartArray&& other) {
+		if (this != &other) {
+			this->clear();
+			this->size = other.size;
+			this->newArray = other.newArray;
+			other.newArray = nullptr;
+			other.size = 0;
+		}
+	}
 
 	/* Methods : */
 	void print()const {
@@ -39,7 +53,7 @@ public:
 	}
 	void resize(const Index& newSize) {
 		if (newSize > 0) {
-			this->operator= (this->ResizedSmartArray(newSize));
+			*this = std::move(this->ResizedSmartArray(newSize));
 		}
 		else {
 			clear();
