@@ -6,5 +6,7 @@
   <Project Path="01. MinBy(second)/01. MinBy(second).vcxproj" Id="c99ca817-ccd4-4161-8cdc-59213474a83a" />
   <Project Path="01. MinBy/01. MinBy.vcxproj" Id="de8fc92c-ba9b-49e0-9d68-ddb95b2bd1bc" />
   <Project Path="02. Remove Invalid/02. Remove Invalid.vcxproj" Id="2895b232-bb79-4b5c-a9a1-a9ca82fb3f1b" />
+  <Project Path="03. Make Company/03. Make Company.vcxproj" Id="97c28882-6a61-4410-a0d8-01d726262772" />
   <Project Path="04. Parse Unique Companies/04. Parse Unique Companies.vcxproj" Id="ae435c64-5e56-4fff-a996-d5734343667b" />
+  <Project Path="05. Register of Three/05. Register of Three.vcxproj" Id="0d6571f0-b62d-4a92-9375-6b7e02c1a9ff" />
 </Solution>
