@@ -9,4 +9,7 @@
   <Project Path="03. Make Company/03. Make Company.vcxproj" Id="97c28882-6a61-4410-a0d8-01d726262772" />
   <Project Path="04. Parse Unique Companies/04. Parse Unique Companies.vcxproj" Id="ae435c64-5e56-4fff-a996-d5734343667b" />
   <Project Path="05. Register of Three/05. Register of Three.vcxproj" Id="0d6571f0-b62d-4a92-9375-6b7e02c1a9ff" />
+  <Project Path="06. Array of Pointers/06. Array of Pointers.vcxproj" Id="85f37790-1b8f-4c7a-9641-c9def3b030ae" />
+  <Project Path="07. List/07. List.vcxproj" Id="47a97b65-f2b4-437c-aa04-5b79009b5949" />
+  <Project Path="08. Overloading Madness/08. Overloading Madness.vcxproj" Id="cdcbbeac-c86c-484f-8a45-59dc8c13c619" />
 </Solution>
